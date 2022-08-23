@@ -1,0 +1,340 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Inter;
+    box-sizing: border-box;
+}
+
+.slick-dots{
+    width: auto !important;
+    left: 100% !important;
+    bottom: 70px !important;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    float: left;
+    width: 100%;
+    background: linear-gradient(45deg,  rgb(229, 106, 135),  rgb(157, 125, 129), rgb(158, 209, 190) 90%);
+    padding: 100px;
+}
+
+#Mobile{
+    float: left;
+    width: 100%;
+    display: none;
+}
+
+#Perfil{
+    float: left;
+    width: 225px;
+    height: 100%;
+}
+
+#Perfil img{
+    float: left;
+    width: 100%;
+    border-radius: 100%;
+}
+
+#Perfil .Nome{
+    float: left;
+    width: 100%;
+    font-size: 40px;
+    font-family: Bebas Neue;
+    letter-spacing: 8px;
+    margin-top: 10px;
+}
+
+#Perfil .Texto{
+    float: left;
+    width: 100%;
+}
+
+#Perfil .Curriculum{
+    float: left;
+    width: 100%;
+    margin-top: 12px;
+}
+
+#Perfil .CurriculumEtapaLinha{
+    float: left;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+#Projetos{
+    float: left;
+    width: calc(100% - 225px);
+    height: 100%;  
+    padding-left: 100px;
+    position: relative;
+}
+
+#Projetos .Linguagens{
+    float: left;
+    width: 260px;
+    margin-top: 242px;
+}
+
+#Projetos .LinguagensDiv{
+    float: left;
+    width: 75px;
+    height: 75px;
+    border: 2px solid #000;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-left: 2px;
+    padding-top: 2px;
+    position: relative;
+}
+
+#Projetos .LinguagensDivBarra{
+    position: absolute;
+    bottom: -1px;
+    left: -2px;
+    height: 5px;
+    background-color: #000;
+}
+
+#Projetos .Projetos{
+    float: left;
+    width: calc(100% - 260px);
+    padding-left: 100px;
+    margin-top: 242px;
+}
+
+#Projetos .Projeto{
+    float: left;
+    width: 100%;
+}
+
+#Projetos .ProjetoTitulo{
+    float: left;
+    width: 100%;
+    font-family: Bebas Neue;
+    font-size: 20px;
+}
+
+#Projetos .ProjetoTexto{
+    float: left;
+    width: calc(100% - 240px);
+    padding-right: 25px;
+    line-height: 1.4;
+}
+
+#Projetos .Projeto img{
+    float: left;
+    margin-top: -24px;
+    filter: grayscale(100%) brightness(120%);
+    width: 240px;
+    height: 240px;
+}
+
+#Projetos .Biografia{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#Projetos .BiografiaTexto{
+    font-family: Bebas Neue;
+    font-size: 16px;
+}
+
+
+#Projetos .Biografia img{
+    margin-left: 3px;
+    width: 28px;
+    height: 28px;
+}
+
+
+@media(max-width: 1400px){
+    html{
+        background: linear-gradient(45deg,  rgb(229, 106, 135),  rgb(157, 125, 129), rgb(158, 209, 190) 90%);
+    }
+
+    body{
+        width: 1400px; 
+        overflow-x: auto;
+        padding: 70px;
+    }
+
+    #Projetos .ProjetoTexto{
+        width: calc(100% - 200px);
+    }
+
+    #Projetos .Projeto img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media(max-width: 960px){
+    body{
+        width: 100%;
+        height: auto;
+        padding: 50px;
+    }
+    #Mobile{
+        display: block;
+    }
+
+    #Perfil{
+        display: none;
+    }
+
+    #Projetos{
+        display: none;
+    }
+
+    #PerfilMobile{
+        float: left;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #PerfilMobile img{
+        float: left;
+        width: 100%;
+        border-radius: 100%;
+    }
+    
+    #PerfilMobile .Nome{
+        float: left;
+        width: 100%;
+        font-size: 40px;
+        font-family: Bebas Neue;
+        letter-spacing: 8px;
+        margin-top: 10px;
+    }
+    
+    #PerfilMobile .Curriculum{
+        float: left;
+        width: 100%;
+        margin-top: 12px;
+    }
+    
+    #PerfilMobile .CurriculumEtapaLinha{
+        float: left;
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    #LinguagensMobile{
+        float: left;
+        width: 400px;
+        height: 100%;  
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: relative;
+    }
+    
+    #LinguagensMobile .Linguagens{
+        float: left;
+        width: 260px;
+        margin-top: 242px;
+    }
+    
+    #LinguagensMobile .LinguagensDiv{
+        float: left;
+        width: 75px;
+        height: 75px;
+        border: 2px solid #000;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        padding-left: 2px;
+        padding-top: 2px;
+        position: relative;
+    }
+    
+    #LinguagensMobile .LinguagensDivBarra{
+        position: absolute;
+        bottom: -1px;
+        left: -2px;
+        height: 5px;
+        background-color: #000;
+    }
+    
+    #LinguagensMobile .Biografia{
+        float: left;
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+    #LinguagensMobile .BiografiaImg{
+        float: left;
+        width: 40px;
+        height: 40px;
+        background-size: cover;
+        border-radius: 10px;
+        margin-right: 5px;
+    }
+
+    #ProjetosMobile{
+        float: left;
+        width: 100%;
+        height: 100%;  
+        padding-top: 40px;
+        position: relative;
+    }
+
+    #ProjetosMobile .Projetos{
+        float: left;
+        width: calc(100% - 260px);
+        margin-top: 242px;
+    }
+    
+    #ProjetosMobile .Projeto{
+        float: left;
+        width: 100%;
+    }
+    
+    #ProjetosMobile .ProjetoTitulo{
+        float: left;
+        width: 100%;
+        font-family: Bebas Neue;
+        font-size: 20px;
+    }
+    
+    #ProjetosMobile .ProjetoTexto{
+        float: left;
+        width: calc(100% - 120px);
+        padding-right: 25px;
+        line-height: 1.4;
+    }
+    
+    #ProjetosMobile .Projeto img{
+        float: left;
+        margin-top: -24px;
+        filter: grayscale(100%) brightness(120%);
+        width: 120px;
+        height: 120px;
+    }
+    
+    #ProjetosMobile .Biografia{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+    }
+    
+    #ProjetosMobile .BiografiaTexto{
+        font-family: Bebas Neue;
+        font-size: 16px;
+    }
+    
+    
+    #ProjetosMobile .Biografia img{
+        margin-left: 3px;
+        width: 28px;
+        height: 28px;
+    }
+
+}
