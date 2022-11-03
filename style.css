@@ -38,6 +38,7 @@ body{
     float: left;
     width: 100%;
     border-radius: 100%;
+    box-shadow: -5px 5px 0px 0px rgb(0 0 0);
 }
 
 #Perfil .Nome{
