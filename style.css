@@ -38,7 +38,7 @@ body{
     float: left;
     width: 100%;
     border-radius: 100%;
-    box-shadow: -5px 5px 0px 0px rgb(0 0 0);
+    box-shadow: -3px 3px 0px 1px rgb(0 0 0);
 }
 
 #Perfil .Nome{
@@ -150,8 +150,8 @@ body{
 
 #Projetos .Biografia img{
     margin-left: 3px;
-    width: 28px;
-    height: 28px;
+    width: 40px;
+    height: 40px;
 }
 
 
