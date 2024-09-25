@@ -302,6 +302,7 @@ body{
     #ProjetosMobile .Projeto{
         float: left;
         width: 100%;
+        height: 250px !important;
     }
     
     #ProjetosMobile .ProjetoTitulo{
